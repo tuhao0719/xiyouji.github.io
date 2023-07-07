@@ -1,0 +1,42 @@
+html {
+    font-size: 10px;        /* px 表示“像素（pixel）”: 基础字号为 10 像素 */
+    height: 100%;
+    font-family: "0pen Sans", sans-serif;       /* 这应该是你从 Google Fonts 得到的其余输出。 */
+    background-color:rgb(255, 255, 255);
+  }
+  
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 0px 10px 10px 10px;
+    border: 1px solid rgb(255, 255, 255);
+  }  
+
+
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+    padding: 20px 0;
+    color: #c4def6;
+    text-shadow: 3px 3px 1px rgb(92, 91, 91); 
+  }
+
+p,
+li{
+    font-size: 16px;
+    line-height: 2;
+    /* letter-spacing: 1px;  width：元素的宽度 */
+    /* background-color:rgb(245, 211, 167)    元素内容和内边距底下的颜色 */
+    /* color rgb(101, 69, 31);     /* 元素内容（通常是文本）的颜色 */
+    /* text-shadow:rgb(31, 52, 45);     /* 为元素内的文本设置阴影 */
+    /* display:rgb(116, 89, 53)        设置元素的显示模式（继续阅读文章以了解更多细节） */ 
+} 
+
+img {
+  display: block;
+  margin: 0 auto;
+}  
